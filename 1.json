@@ -1,0 +1,80 @@
+{
+  "response": {
+    "GeoObjectCollection": {
+      "metaDataProperty": {
+        "GeocoderResponseMetaData": {
+          "request": "г Магадан",
+          "results": "10",
+          "found": "1"
+        }
+      },
+      "featureMember": [
+        {
+          "GeoObject": {
+            "metaDataProperty": {
+              "GeocoderMetaData": {
+                "precision": "other",
+                "text": "Россия, Магадан",
+                "kind": "locality",
+                "Address": {
+                  "country_code": "RU",
+                  "formatted": "Россия, Магадан",
+                  "Components": [
+                    {
+                      "kind": "country",
+                      "name": "Россия"
+                    },
+                    {
+                      "kind": "province",
+                      "name": "Дальневосточный федеральный округ"
+                    },
+                    {
+                      "kind": "province",
+                      "name": "Магаданская область"
+                    },
+                    {
+                      "kind": "area",
+                      "name": "городской округ Магадан"
+                    },
+                    {
+                      "kind": "locality",
+                      "name": "Магадан"
+                    }
+                  ]
+                },
+                "AddressDetails": {
+                  "Country": {
+                    "AddressLine": "Россия, Магадан",
+                    "CountryNameCode": "RU",
+                    "CountryName": "Россия",
+                    "AdministrativeArea": {
+                      "AdministrativeAreaName": "Магаданская область",
+                      "SubAdministrativeArea": {
+                        "SubAdministrativeAreaName": "городской округ Магадан",
+                        "Locality": {
+                          "LocalityName": "Магадан"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "name": "Магадан",
+            "description": "Россия",
+            "boundedBy": {
+              "Envelope": {
+                "lowerCorner": "150.603492 59.472429",
+                "upperCorner": "151.036174 59.743549"
+              }
+            },
+            "uri": "ymapsbm1://geo?data=Cgg1MzA2Nzc0MRIc0KDQvtGB0YHQuNGPLCDQnNCw0LPQsNC00LDQvSIKDQDPFkMVuEJuQg,,",
+            "Point": {
+              "pos": "150.808586 59.565155"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "response": {
+    "GeoObjectCollection": {
+      "metaDataProperty": {
+        "GeocoderResponseMetaData": {
+          "request": "ул. Петровка, 38, стр. 1, Москва",
+          "results": "10",
+          "found": "1"
+        }
+      },
+      "featureMember": [
+        {
+          "GeoObject": {
+            "metaDataProperty": {
+              "GeocoderMetaData": {
+                "precision": "exact",
+                "text": "Россия, Москва, улица Петровка, 38с1",
+                "kind": "house",
+                "Address": {
+                  "country_code": "RU",
+                  "formatted": "Россия, Москва, улица Петровка, 38с1",
+                  "postal_code": "127006",
+                  "Components": [
+                    {
+                      "kind": "country",
+                      "name": "Россия"
+                    },
+                    {
+                      "kind": "province",
+                      "name": "Центральный федеральный округ"
+                    },
+                    {
+                      "kind": "province",
+                      "name": "Москва"
+                    },
+                    {
+                      "kind": "locality",
+                      "name": "Москва"
+                    },
+                    {
+                      "kind": "street",
+                      "name": "улица Петровка"
+                    },
+                    {
+                      "kind": "house",
+                      "name": "38с1"
+                    }
+                  ]
+                },
+                "AddressDetails": {
+                  "Country": {
+                    "AddressLine": "Россия, Москва, улица Петровка, 38с1",
+                    "CountryNameCode": "RU",
+                    "CountryName": "Россия",
+                    "AdministrativeArea": {
+                      "AdministrativeAreaName": "Москва",
+                      "Locality": {
+                        "LocalityName": "Москва",
+                        "Thoroughfare": {
+                          "ThoroughfareName": "улица Петровка",
+                          "Premise": {
+                            "PremiseNumber": "38с1",
+                            "PostalCode": {
+                              "PostalCodeNumber": "127006"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "name": "улица Петровка, 38с1",
+            "description": "Москва, Россия",
+            "boundedBy": {
+              "Envelope": {
+                "lowerCorner": "37.608877 55.767063",
+                "upperCorner": "37.617087 55.771692"
+              }
+            },
+            "uri": "ymapsbm1://geo?data=Cgg1NjcyOTQ5NBI-0KDQvtGB0YHQuNGPLCDQnNC-0YHQutCy0LAsINGD0LvQuNGG0LAg0J_QtdGC0YDQvtCy0LrQsCwgMzjRgTEiCg2ycxZCFdgTX0I,",
+            "Point": {
+              "pos": "37.612982 55.769378"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
